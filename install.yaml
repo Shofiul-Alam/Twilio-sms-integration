@@ -1,0 +1,37 @@
+XLite\Model\Config:
+  - name: twilioSID
+    category: Shofi\TwilioSMS
+    type: text
+    orderby: 100
+    value: ''
+    translations:
+      - code: en
+        option_name: Twilio API SID
+        option_comment: Please get API SID from Twilio
+  - name: twilioToken
+    category: Shofi\TwilioSMS
+    type: text
+    orderby: 101
+    value: ''
+    translations:
+      - code: en
+        option_name: Freshmail API Token
+        option_comment: Please get API Token from Twilio
+  - name: twilioMobile
+    category: Shofi\TwilioSMS
+    type: text
+    orderby: 102
+    value: ''
+    translations:
+      - code: en
+        option_name: Twilio Mobile No
+        option_comment: Please buy twilio mobile no from Twilio
+  - name: twilioAlphaNumericID
+    category: Shofi\TwilioSMS
+    type: text
+    orderby: 103
+    value: ''
+    translations:
+      - code: en
+        option_name: Twilio Alpha Numeric Sender Id
+        option_comment: Get Alpha Numeric Sender Id from twilio
